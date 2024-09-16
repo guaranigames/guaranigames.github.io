@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img_fundo.jpeg);
+}
+/*ERROR MOMENTO*/
+#erro{
+    background-color: #000;
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    color: white;
+ }
+ #erro h1{
+    text-align: center;
+ }
+/*nome e fundo do site */
+#nome{
+    min-width: 320px;
+    max-width: 3000px;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column; /* Coloca as imagens uma embaixo da outra */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+#litt{
+    position: absolute;
+    max-width:  700px;
+    min-width: 100px;
+    max-height: 230.41px;
+    min-height: 100px;
+    margin: auto;
+}
+#fundo{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+}
+#litt, #fundo {
+    max-width: 100%; /* Reduz a largura das imagens em telas menores */
+  }
+ 
+/*menu de navegaçao*/
+#menu{
+    max-width: 530px;
+    min-width: 100px;
+    min-height: 60px;
+    max-height: 100px;
+    margin: auto;
+    padding-bottom: 10%;
+}
+#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+#menu li{
+    background-color: rgb(226, 191, 161);
+    font-family: 'Georgia', serif;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid #3b2a1e; 
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000; 
+    border-radius: 10px; 
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+}
+#menu li:hover{
+    background-color: #8d0d0d
+}
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+/* TRailer */
+#trailer{
+    max-width: 1325px;
+    min-width: 320px;
+    max-height: 1000px;
+    min-height:315px;
+    margin: auto;
+    display: flex;
+    flex-direction: row; /* Coloca as imagens uma embaixo da outra */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+#video{
+    width:560px;
+    height:315px;
+    /*Sem video kkkk*/
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+#video p{
+    font-size: 100px;
+    margin-top: 90px;
+}
+#inf{ 
+    width:560px;
+    height: 315px;
+    padding: 15px;
+    background-color: burlywood;
+}
+#h1{
+    text-align: center;
+    font-size: 50px;
+}
+#legenda1{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* descricao e imagens do jogo*/
+.nov{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+#descricao{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row; /* Coloca as imagens uma embaixo da outra */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    margin-top: 100px;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+#descricao img{
+    width: 500px;
+    height: 300px;
+    padding-bottom: 15px;
+}
+#leg{
+    text-align: justify;
+    width: 500px;
+    height: 146px;
+    background-color:burlywood;
+    padding: 10px;
+}
+/*footer*/
+#footer{
+    text-align: center;
+    background-color: burlywood;
+}
+/*Sbre nos*/
+#papiros{
+    display: grid;
+    gap: 10px; /* Espaçamento entre a imagem e o texto */
+    margin: 0;
+    justify-content: center;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.nos h1{
+    text-align: center;
+}
+#guarani img{
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+}
+.nos{
+    text-align: justify;
+    width: 500px;
+}
+#nos1{
+    background-color:burlywood;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+/*carousel sobre nos*/
+.imgs-sn{
+    display: none;
+}
+.carousel img{
+    height: 500px;
+    width: 500px;
+}
+.carousel {
+    display: flex;
+    grid-template-columns: auto 1fr; /* Ajusta a coluna da imagem e do texto */
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    place-items: center; /* Centraliza vertical e horizontalmente */
+}
+.carousel-images img {
+    width: 400px;
+    height: 500px;
+    display: none;
+}
+.carousel-images img.active {
+    display: block;
+}
+.carousel-description {
+    background-color: burlywood;
+    width: 400px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.carousel-description p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.carousel-description{
+    height: 175px;
+}
+button {
+    position: absolute;
+    margin-bottom: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button.prev {
+    margin-right: 370px;
+}
+button.next {
+    margin-left: 370px;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*carousel evolucao*/
+.carousel-e img{
+    height: 500px;
+    width: 500px;
+}
+.carousel-e {
+    display: flex;
+    grid-template-columns: auto 1fr; /* Ajusta a coluna da imagem e do texto */
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    place-items: center; /* Centraliza vertical e horizontalmente */
+}
+.carousel-imagems img {
+    width: 500px;
+    display: none;
+}
+.carousel-imagems img.active {
+    display: block;
+}
+.carousel-descricao {
+    background-color: burlywood;
+    width: 500px;
+    margin-bottom: 200px;
+}
+.carousel-descricao p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.carousel-descricao{
+    height: 150px;
+    padding: 10px;
+}
+button {
+    position: absolute;
+    margin-bottom: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button.ant {
+    margin-right: 470px;
+}
+button.prox {
+    margin-left: 470px;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/*parte MOBA !CUIDADO AO MEXER!*/
+.menumoba{
+    display: none;
+}
+.abrirmenu{
+    display: none;
+}
+.imgs{
+    display: none;
+}
+/*RESPANCIVIDADE*/
+@media (max-width: 1084px) {
+    #litt, #fundo{
+     max-width: 100%; /* As imagens ocupam toda a largura da tela em dispositivos muito pequenos */
+   }
+  /*TRAILER*/
+  #trailer {
+    flex-direction: column; /* Coloca as imagens em uma coluna ao invés de uma linha */
+    margin: auto;
+  }
+  #papiros{
+    place-items: center; /* Centraliza vertical e horizontalmente */
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+  }
+  #inf, #video{
+    max-width: 100%; /* Reduz a largura das imagens em telas menores */
+  }
+  #inf, #video {
+    max-width: 100%; /* As imagens ocupam toda a largura da tela em dispositivos muito pequenos */
+  }
+  /*imgs do jogo*/
+  #descricao {
+    flex-direction: column; /* Coloca as imagens em uma coluna ao invés de uma linha */
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+ }
+
+ @media (max-width: 580px) {
+    #inf{
+        display: flex;
+        width: 100%;
+    }
+    #inf h1{
+        display: flex;
+        width: 100%;
+        font-size: 25px;
+        height: 20px;
+        justify-content: center;
+    }
+    
+    #inf, #leg{
+        display: flex;
+        height: auto;
+        margin: 0;
+        flex-direction: column;
+    }
+    #menu{
+        display: none;
+    }
+    .overlay-menu{
+        background-color: #0000008e;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 888;
+        display: none;
+    }
+    .abrirmenu{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .menumoba{
+        display: block;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        background-color: brown;
+        width: 0%;
+        overflow: hidden;
+        transition: .2s;
+    }
+    .menumoba.abrir-menu{
+        width: 60%;
+    }
+    .menumoba.abrir-menu ~ .overlay-menu{
+        display: block;
+    }
+    .menumoba nav ul{
+        text-align: right;
+        list-style: none;
+        text-transform: uppercase;
+    }
+    .menumoba nav ul li a{
+        color: black;
+        font-family: 'Georgia', serif;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: 300px;
+        display: block;
+    }
+    .menumoba li{
+        padding: 20px;
+    }
+    .menumoba a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+ }
+ @media (max-width: 520px) {
+    /*inicio*/
+    #video, #legenda1{
+        display: flex;
+        width: 100%;
+    }
+    #descricao{
+        text-align: center;
+        margin-top: 350px;
+        margin-bottom: 350px;
+    }
+    #descricao img{
+        width: 300px;
+        padding-bottom: 0;
+    }
+    #inf{
+        height: auto;
+        width: auto;
+    }
+    #leg{
+        height: auto;
+        width: 300px;
+    }
+    /*sobre nos*/
+    .carousel{
+        display: none;
+    }
+    .imgs-sn{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    .imgs-sn img{
+        height: 400px;
+        width: 300px;
+    }
+    .imgs-sn p{
+        background-color: burlywood;
+        text-align: justify;
+        width: 300px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    .nos{
+        text-align: justify;
+        width: 300px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    /*Evolucao*/
+    .carousel-e{
+        display: none;
+    }
+    .imgs{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    .imgs img{
+        height: 300px;
+        width: 300px;
+    }
+    .imgs p{
+        background-color: burlywood;
+        text-align: justify;
+        width: 300px;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+ }
+
+ 
