@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
+    height: 100%;
     background-image: url(img_fundo.jpeg);
+    background-size: cover
+    
 }
 /*ERROR MOMENTO*/
 #erro{
@@ -51,26 +55,25 @@ body{
     min-width: 100px;
     min-height: 60px;
     max-height: 100px;
-    margin: auto;
+    margin-left: 40%;
     padding-bottom: 10%;
 }
 #menu ul{
     list-style: none;
     text-transform: uppercase;
-    
     align-items: center; /* Centraliza horizontalmente */
     justify-content: center; /* Centraliza verticalmente */
 }
 #menu li{
-    background-color: rgb(226, 191, 161);
+    background-color: burlywood;
     font-family: 'Georgia', serif;
     padding: 10px;
-    margin-left: 10px;
+ 
     border: 2px solid #3b2a1e; 
     font-size: 18px;
     text-align: center;
     text-shadow: 1px 1px 0px #000; 
-    border-radius: 10px; 
+    
     cursor: pointer;
     display: inline-block;
     transition: 0.5s;
@@ -88,11 +91,10 @@ body{
 }
 /* TRailer */
 #trailer{
-    max-width: 1325px;
-    min-width: 320px;
-    max-height: 1000px;
-    min-height:315px;
+    max-width: 1280px;
+    height: 350px;
     margin: auto;
+    background-color: burlywood;
     display: flex;
     flex-direction: row; /* Coloca as imagens uma embaixo da outra */
     justify-content: center; /* Centraliza verticalmente */
@@ -114,7 +116,6 @@ body{
     width:560px;
     height: 315px;
     padding: 15px;
-    background-color: burlywood;
 }
 #h1{
     text-align: center;
@@ -146,13 +147,11 @@ body{
 #descricao img{
     width: 500px;
     height: 300px;
-    padding-bottom: 15px;
 }
 #leg{
     text-align: justify;
     width: 500px;
     height: 146px;
-    background-color:burlywood;
     padding: 10px;
 }
 /*footer*/
@@ -171,6 +170,7 @@ body{
 }
 .nos h1{
     text-align: center;
+    z-index: 900;
 }
 #guarani img{
     width: 250px;
@@ -179,12 +179,10 @@ body{
 }
 .nos{
     text-align: justify;
+    backdrop-filter: blur(10px); /* Aplica o blur */
     width: 500px;
-}
-#nos1{
-    background-color:burlywood;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 20px;
 }
 /*carousel sobre nos*/
 .imgs-sn{
@@ -244,59 +242,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/*carousel evolucao*/
-.carousel-e img{
-    height: 500px;
-    width: 500px;
-}
-.carousel-e {
-    display: flex;
-    grid-template-columns: auto 1fr; /* Ajusta a coluna da imagem e do texto */
-    flex-direction: column;
-    margin: 0;
-    justify-content: center;
-    place-items: center; /* Centraliza vertical e horizontalmente */
-}
-.carousel-imagems img {
-    width: 500px;
-    display: none;
-}
-.carousel-imagems img.active {
-    display: block;
-}
-.carousel-descricao {
-    background-color: burlywood;
-    width: 500px;
-    margin-bottom: 200px;
-}
-.carousel-descricao p{
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-.carousel-descricao{
-    height: 150px;
-    padding: 10px;
-}
-button {
-    position: absolute;
-    margin-bottom: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-}
-button.ant {
-    margin-right: 470px;
-}
-button.prox {
-    margin-left: 470px;
-}
-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
+
 /*parte MOBA !CUIDADO AO MEXER!*/
 .menumoba{
     display: none;
