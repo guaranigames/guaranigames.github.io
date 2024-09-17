@@ -9,8 +9,7 @@ body{
 }
 
 #nome{
-    min-width: 320px;
-    max-width: 3000px;
+    width: auto;
     margin: auto;
     display: flex;
     align-items: center; /* Centraliza horizontalmente */
@@ -285,18 +284,18 @@ footer{
         flex-direction: column;
     }
     .imgs-sn img{
-        height: 400px;
-        width: auto;
+        height: 500px;
+        width: 400px;
     }
     .imgs-sn p{
         text-align: justify;
-        width: auto;
+        width: 400px;
         margin-bottom: 50px;
         padding: 20px;
     }
     .nos{
         text-align: justify;
-        width: auto;
+        width: 450px;
         margin-bottom: 50px;
         padding: 20px;
     }
@@ -313,12 +312,12 @@ footer{
         flex-direction: column;
     }
     .imgs img{
-        height: 300px;
-        width: auto;
+        height: 400px;
+        width: 400px;
     }
     .imgs p{
         text-align: justify;
-        width: auto;
+        width: 400px;
         margin-bottom: 50px;
         padding: 10px;
     }
