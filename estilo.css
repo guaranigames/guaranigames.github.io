@@ -74,7 +74,6 @@ body{
 /* sobre nos */
 #papiros{
     display: grid;
-    gap: 10px; /* Espaçamento entre a imagem e o texto */
     margin: 0;
     justify-content: center;
     margin-bottom: 100px;
@@ -210,12 +209,12 @@ footer{
 @media (max-width: 1084px) {
   .nos{
     text-align: justify;
-    width: 400px;
+    width: auto;
     margin-bottom: 50px;
     padding: 20px;
 }
  }
-@media (max-width: 580px){
+@media (max-width: 650px){
     #menu{
         display: none;
     }
@@ -273,5 +272,54 @@ footer{
     .menumoba a:hover{
         color: white;
         text-decoration: underline;
+    }
+    .carousel{
+        display: none;
+    }
+    .imgs-sn{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    .imgs-sn img{
+        height: 400px;
+        width: auto;
+    }
+    .imgs-sn p{
+        text-align: justify;
+        width: auto;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    .nos{
+        text-align: justify;
+        width: auto;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    /*Evolucao*/
+    .carousel-e{
+        display: none;
+    }
+    .imgs{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    .imgs img{
+        height: 300px;
+        width: auto;
+    }
+    .imgs p{
+        text-align: justify;
+        width: auto;
+        margin-bottom: 50px;
+        padding: 10px;
     }
 }
