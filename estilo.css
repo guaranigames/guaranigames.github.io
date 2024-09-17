@@ -212,6 +212,9 @@ footer{
     margin-bottom: 50px;
     padding: 20px;
 }
+#nome{
+    width: auto;
+}
  }
 @media (max-width: 650px){
     #menu{
@@ -272,6 +275,9 @@ footer{
         color: white;
         text-decoration: underline;
     }
+    #nome{
+        width: auto;
+    }
     .carousel{
         display: none;
     }
@@ -295,7 +301,7 @@ footer{
     }
     .nos{
         text-align: justify;
-        width: 450px;
+        width: 400px;
         margin-bottom: 50px;
         padding: 20px;
     }

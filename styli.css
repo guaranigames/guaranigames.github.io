@@ -91,8 +91,7 @@ body{
 }
 /* TRailer */
 #trailer{
-    max-width: 1280px;
-    height: 350px;
+    max-width: 1100px;
     margin: auto;
     background-color: burlywood;
     display: flex;
@@ -127,10 +126,11 @@ body{
 }
 /* descricao e imagens do jogo*/
 .nov{
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 #descricao{
     width: 100%;
@@ -262,6 +262,8 @@ button:hover {
   #trailer {
     flex-direction: column; /* Coloca as imagens em uma coluna ao invés de uma linha */
     margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
   #papiros{
     place-items: center; /* Centraliza vertical e horizontalmente */
@@ -269,11 +271,8 @@ button:hover {
     margin: 0;
     justify-content: center;
   }
-  #inf, #video{
-    max-width: 100%; /* Reduz a largura das imagens em telas menores */
-  }
-  #inf, #video {
-    max-width: 100%; /* As imagens ocupam toda a largura da tela em dispositivos muito pequenos */
+  #inf{
+    height: 600px; /* Reduz a largura das imagens em telas menores */
   }
   /*imgs do jogo*/
   #descricao {
@@ -363,10 +362,6 @@ button:hover {
  }
  @media (max-width: 520px) {
     /*inicio*/
-    #video, #legenda1{
-        display: flex;
-        width: 100%;
-    }
     #descricao{
         text-align: center;
         margin-top: 350px;
