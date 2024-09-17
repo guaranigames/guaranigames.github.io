@@ -156,6 +156,7 @@ button:hover {
     margin: 0;
     justify-content: center;
     place-items: center; /* Centraliza vertical e horizontalmente */
+    margin-top: 150px;
 }
 .carousel-imagems img {
     width: 500px;
@@ -166,7 +167,8 @@ button:hover {
 }
 .carousel-descricao { 
     width: 500px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+
 }
 .carousel-descricao p{
     text-align: justify;
@@ -196,6 +198,12 @@ button.prox {
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+#verao{
+    background-image: url(img_fundo.jpeg);
+    width: 800px;
+    margin: auto;
+    text-align: center; 
+}
 /*footer*/
 footer{
     text-align: center;
@@ -204,7 +212,9 @@ footer{
     color: white;
     text-decoration: none;
 }
-
+#inverno{
+    display: none;
+}
 @media (max-width: 1084px) {
   .nos{
     text-align: justify;
@@ -326,5 +336,13 @@ footer{
         width: 400px;
         margin-bottom: 50px;
         padding: 10px;
+    }
+    #verao{
+        display: none;
+    }
+    #inverno{
+        display: flex;
+        margin-left: 100px;
+        text-align: center; 
     }
 }
