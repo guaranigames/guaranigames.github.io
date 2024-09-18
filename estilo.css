@@ -41,7 +41,7 @@ body{
     background-color: black;
     font-family: 'Georgia', serif;
     padding: 10px;
-    border: 2px solid red; 
+    border: 2px solid blue; 
     font-size: 18px;
     text-align: center;
     text-shadow: 1px 1px 0px #000; 
@@ -50,7 +50,7 @@ body{
     transition: 0.5s;
 }
 #menu li:hover{
-    background-color: blue;
+    background-color: rgb(37, 37, 37);
 }
 #menu a{
     color: white;
@@ -342,7 +342,7 @@ footer{
     }
     #inverno{
         display: flex;
-        margin-left: 100px;
-        text-align: center; 
+        flex-direction: column;
+        text-align: center;
     }
 }
