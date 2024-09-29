@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(51, 51, 51);
     color: white;
 }
 
@@ -13,7 +13,7 @@ body{
     margin: auto;
     display: flex;
     align-items: center; /* Centraliza horizontalmente */
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 #guarani{
@@ -83,9 +83,16 @@ body{
 }
 .nos{
     text-align: justify;
-    width: 500px;
+    width: 600px;
     margin-bottom: 10px;
     padding: 20px;
+    box-shadow: 7px 7px 16px 6px rgba(0, 0, 0, 0.5);
+}
+.nos p{
+    padding: 25px;
+}
+.nos #linha{
+    border-bottom: 1px solid ;
 }
 /*carousel sobre nos*/
 .imgs-sn{
@@ -199,7 +206,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 #verao{
-    background-image: url(img_fundo.jpeg);
+    background-image: url(/IMGs/img_fundo.jpeg);
     width: 800px;
     margin: auto;
     text-align: center; 
@@ -207,7 +214,7 @@ button:hover {
 /*footer*/
 footer{
     text-align: center;
-    background-color: blue;
+    background-color: #003b89;
     padding: 10px;
     color: white;
     text-decoration: none;
