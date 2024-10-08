@@ -51,7 +51,7 @@ body{
  
 /*menu de navegaçao*/
 #menu{
-    max-width: 530px;
+    max-width: 740px;
     min-width: 100px;
     min-height: 60px;
     max-height: 100px;
@@ -63,7 +63,7 @@ body{
     text-transform: uppercase;
     align-items: center; /* Centraliza horizontalmente */
     justify-content: center; /* Centraliza verticalmente */
-    width: 570px;
+    width: 740px;
 }
 #menu li{
     background-color: burlywood;
@@ -258,6 +258,14 @@ button:hover {
 }
 .imgs{
     display: none;
+}
+
+.saudt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
 }
 /*RESPANCIVIDADE*/
 @media (max-width: 1084px) {
