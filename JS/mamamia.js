@@ -20,9 +20,6 @@ overlay.addEventListener('click', ()=>{
 let ImageIndex = 0;
 const imagems = document.querySelectorAll('.carousel-imagems img');
 const descricao = [
-    "Essa foi a primeira versão da logo da Guarani Games, inspirada na bandeira do Brasil.",
-    "Essa é a segunda versão da logo da Guarani Games, focando em um visual mais minimalista sem sair da inspiração.",
-    "A versão final da logo da Guarani Games dando destaque as cores preta e azul focando em seu design minimalista.",
     "Esboço inicial do protagonista do jogo, inspirado na vestimenta tradicional da época.",
     "Protótipo inicial do cenário da taberna, contendo a formação original dos objetos.",
     "Panorama da disposição dos objetos do cenário do quarto da Agatha, personagem do jogo que disponibilizará a cantiga de amor ao player.",
