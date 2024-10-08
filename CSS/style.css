@@ -247,8 +247,6 @@ button:hover {
     margin: auto;
     text-align: center; 
 }
-
-
 /*parte MOBA !CUIDADO AO MEXER!*/
 .menumoba{
     display: none;
@@ -259,7 +257,7 @@ button:hover {
 .imgs{
     display: none;
 }
-
+/*trilha sonora*/
 .saudt{
     display: flex;
     flex-direction: column;
