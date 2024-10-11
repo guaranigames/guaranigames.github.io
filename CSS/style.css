@@ -51,7 +51,7 @@ body{
  
 /*menu de navegaçao*/
 #menu{
-    max-width: 740px;
+    max-width: 510px;
     min-width: 100px;
     min-height: 60px;
     max-height: 100px;
@@ -63,7 +63,7 @@ body{
     text-transform: uppercase;
     align-items: center; /* Centraliza horizontalmente */
     justify-content: center; /* Centraliza verticalmente */
-    width: 740px;
+    width: 510px;
 }
 #menu li{
     background-color: burlywood;
