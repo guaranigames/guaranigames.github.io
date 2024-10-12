@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 body{
+    /*
     width: 100%;
     height: 100%;
     background-image: url(/IMGs/img_fundo.jpeg);
     background-size: cover
-    
+    */
+    width: 100%;
+    height: 100%;
+    background-image: url(/IMGs/img_fundo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
 }
 /*ERROR MOMENTO*/
 #erro{
@@ -219,7 +226,7 @@ footer img{
     font-size: 20px;
 }
 .carousel-descricao{
-    height: 150px;
+   
     padding: 10px;
 }
 button {
@@ -265,6 +272,35 @@ button:hover {
     gap: 40px;
     margin-bottom: 100px;
 }
+/*teste audio inicio*//*
+audio::-webkit-media-controls-panel{
+    background-color: rgb(175, 139, 92);
+}
+audio::-webkit-media-controls-play-button{
+    background-color: lightblue;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display{
+    color: #333;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: #333;
+}
+audio::-webkit-media-controls-timeline{
+    border-radius: 40px;
+    background-color: lightblue;
+}
+audio::-webkit-media-controls-volume-slider{
+    background-color: lightblue;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+audio::-webkit-media-controls-mute-button{
+    background-color: lightblue;
+    border-radius: 50%;
+}
+/*teste audio final*/
 /*RESPANCIVIDADE*/
 @media (max-width: 1084px) {
     #litt, #fundo{
