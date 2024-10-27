@@ -183,7 +183,8 @@ button:hover {
     font-size: 20px;
 }
 .carousel-descricao{
-    height: 150px;
+    box-shadow: 10px 11px 20px 0px rgba(0, 0, 0, 0.5);
+    height: 100px;
     padding: 10px;
 }
 button {

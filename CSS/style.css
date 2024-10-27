@@ -198,6 +198,17 @@ footer img{
     width: 35px;
 }
 /*carousel evolucao*/
+#centro{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.borda{
+    box-shadow: 10px 11px 20px 0px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    padding: 30px;
+}
 .carousel-e img{
     height: 500px;
     width: 500px;
@@ -219,8 +230,7 @@ footer img{
 }
 .carousel-descricao { 
     width: 500px;
-    margin-bottom: 150px;
-
+    margin-bottom: 50px;
 }
 .carousel-descricao p{
     text-align: justify;
@@ -267,13 +277,24 @@ button:hover {
     display: none;
 }
 /*trilha sonora*/
+#centra{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
 .saudt{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
     margin-bottom: 100px;
+    box-shadow: 10px 11px 20px 0px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    padding: 30px;
 }
+
+
 .carousel-e h3{
     width: 500px;
     text-align: justify;
