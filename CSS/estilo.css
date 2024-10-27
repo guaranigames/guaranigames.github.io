@@ -205,12 +205,7 @@ button.prox {
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-#verao{
-    background-image: url(/IMGs/img_fundo.jpeg);
-    width: 800px;
-    margin: auto;
-    text-align: center; 
-}
+
 /*footer*/
 
 footer{
@@ -244,8 +239,20 @@ footer img{
     height: 35px;
     width: 35px;
 }
+/*Projeto*/
+#verao{
+    background-image: url(/IMGs/img_fundo.jpeg);
+    width: 800px;
+    margin: auto;
+    text-align: center; 
+}
 #inverno{
     display: none;
+}
+#acessar{
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: 75px;
 }
 @media (max-width: 1084px) {
   .nos{
