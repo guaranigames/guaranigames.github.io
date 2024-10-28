@@ -406,6 +406,18 @@ button:hover {
         color: white;
         text-decoration: underline;
     }
+    .borda{
+        display: none;
+    }
+    .saudt{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);
+    }
+    #video{
+        display: flex;
+        width: 100%;
+        font-size: 40px;
+    }
+
  }
  @media (max-width: 520px) {
     /*inicio*/

@@ -19,11 +19,11 @@ overlay.addEventListener('click', ()=>{
 let currentImageIndex = 0;
 const images = document.querySelectorAll('.carousel-images img');
 const descriptions = [
-    "Kaique Lemos, um dos fundadores da Guarani Games,  está responsável pela equipe do desenvolvimento de Chronicles of Litterarium, fazendo parte do design gráfico e jogabilidade.",
+    "Kaique Lemos está responsável pela equipe do desenvolvimento de Chronicles of Litterarium, fazendo parte do design gráfico e jogabilidade.",
 
-    "Nicolas Ruivo, um dos fundadores da Guarani Games, está responsável pela parte de marketing, sendo o administrador das redes sociais e o desenvolvedor da documentação do projeto, fazendo parte do desenvolvimento do design do jogo.",
+    "Nicolas Ruivo está responsável pela parte de marketing, sendo o administrador das redes sociais e o desenvolvedor da documentação do projeto, fazendo parte do desenvolvimento do design do jogo.",
 
-    "Victor Ricardo, um dos fundadores da Guarani Games,  comanda o desenvolvimento web, integrando a parte criativa do design gráfico e também a criação da logo da empresa e o nome do jogo.",
+    "Victor Ricardo comanda o desenvolvimento web, integrando a parte criativa do design gráfico e também a criação da logo da empresa e o nome do jogo.",
 
     "Gabriel Almeida está responsável pelo design gráfico, composição de efeitos sonoros e desenvolvimento web. Responsável pela criação da logo da empresa e do jogo.",
 

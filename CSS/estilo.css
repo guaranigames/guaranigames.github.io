@@ -120,9 +120,18 @@ body{
 }
 .carousel-description {
     width: 400px;
-    margin-bottom: 100px;
     padding: 20px;
-    box-shadow: 7px 7px 16px 6px rgba(0, 0, 0, 0.5);
+}
+.borda{
+    box-shadow: 10px 11px 20px 0px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    padding: 30px;
+}
+#centro{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 150px;
 }
 .carousel-description p{
     text-align: justify;
@@ -354,6 +363,9 @@ footer img{
         width: 400px;
         margin-bottom: 50px;
         padding: 20px;
+    }
+    .borda{
+        display: none;
     }
     /*Evolucao*/
     .carousel-e{
