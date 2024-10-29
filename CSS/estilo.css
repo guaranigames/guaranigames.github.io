@@ -153,9 +153,11 @@ button {
 }
 button.prev {
     margin-right: 370px;
+    margin-top: 200px;
 }
 button.next {
     margin-left: 370px;
+    margin-top: 200px;
 }
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
@@ -215,9 +217,7 @@ button.prox {
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 /*footer*/
-
 footer{
     background-color: #003b89;
     padding: 10px;
@@ -264,6 +264,7 @@ footer img{
     margin-bottom: 75px;
     margin-top: 75px;
 }
+/*respancividade*/
 @media (max-width: 1084px) {
   .nos{
     text-align: justify;
@@ -273,6 +274,58 @@ footer img{
 }
 #nome{
     width: auto;
+}
+#menu li {
+    font-size: 13px;
+    margin-top: 115px;
+}
+.carousel{
+    display: none;
+}
+.borda{
+    display: none;
+}
+.imgs-sn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+.imgs-sn img{
+    height: 500px;
+    width: 400px;
+}
+.imgs-sn p{
+    text-align: justify;
+    width: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+#papiros{
+    margin-bottom: 0px;
+}
+.carousel-e{
+    display: none;
+}
+.imgs{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+.imgs img{
+    height: 400px;
+    width: 400px;
+}
+.imgs p{
+    text-align: justify;
+    width: 400px;
+    margin-bottom: 50px;
+    padding: 10px;
 }
  }
 @media (max-width: 650px){
@@ -337,9 +390,7 @@ footer img{
     #nome{
         width: auto;
     }
-    .carousel{
-        display: none;
-    }
+
     .imgs-sn{
         display: flex;
         text-align: center;
@@ -364,31 +415,7 @@ footer img{
         margin-bottom: 50px;
         padding: 20px;
     }
-    .borda{
-        display: none;
-    }
     /*Evolucao*/
-    .carousel-e{
-        display: none;
-    }
-    .imgs{
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        flex-direction: column;
-    }
-    .imgs img{
-        height: 400px;
-        width: 400px;
-    }
-    .imgs p{
-        text-align: justify;
-        width: 400px;
-        margin-bottom: 50px;
-        padding: 10px;
-    }
     #verao{
         display: none;
     }

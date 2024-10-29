@@ -293,8 +293,6 @@ button:hover {
     width: 600px;
     padding: 30px;
 }
-
-
 .carousel-e h3{
     width: 500px;
     text-align: justify;
@@ -310,6 +308,7 @@ button:hover {
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    max-width: 550px;
   }
   #papiros{
     place-items: center; /* Centraliza vertical e horizontalmente */
@@ -318,16 +317,45 @@ button:hover {
     justify-content: center;
   }
   #inf{
-    height: 600px; /* Reduz a largura das imagens em telas menores */
+    height: 300px; /* Reduz a largura das imagens em telas menores */
   }
   /*imgs do jogo*/
   #descricao {
     flex-direction: column; /* Coloca as imagens em uma coluna ao invés de uma linha */
-    margin-top: 300px;
-    margin-bottom: 300px;
+    margin-top: 400px;
+    margin-bottom: 400px;
   }
+  .carousel-e{
+    display: none;
+}
+.borda{
+    display: none;
+}
+.carousel{
+    display: none;
+}
+.imgs{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+/*Evolucao*/
+.imgs img{
+    height: 600px;
+    width: 600px;
+}
+.imgs p{
+    background-color: burlywood;
+    text-align: justify;
+    width: 600px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
  }
-
  @media (max-width: 580px) {
     #inf{
         display: flex;
@@ -341,7 +369,6 @@ button:hover {
         justify-content: center;
         padding-bottom: 20px;
     }
-    
     #inf, #leg{
         display: flex;
         height: auto;
@@ -406,9 +433,6 @@ button:hover {
         color: white;
         text-decoration: underline;
     }
-    .borda{
-        display: none;
-    }
     .saudt{
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);
     }
@@ -417,7 +441,26 @@ button:hover {
         width: 100%;
         font-size: 40px;
     }
-
+    .imgs{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    /*Evolucao*/
+    .imgs img{
+        height: 300px;
+        width: 300px;
+    }
+    .imgs p{
+        background-color: burlywood;
+        text-align: justify;
+        width: 300px;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
  }
  @media (max-width: 520px) {
     /*inicio*/
@@ -439,9 +482,6 @@ button:hover {
         width: 300px;
     }
     /*sobre nos*/
-    .carousel{
-        display: none;
-    }
     .imgs-sn{
         display: flex;
         text-align: center;
@@ -466,28 +506,5 @@ button:hover {
         width: 300px;
         margin-bottom: 50px;
         padding: 20px;
-    }
-    /*Evolucao*/
-    .carousel-e{
-        display: none;
-    }
-    .imgs{
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        flex-direction: column;
-    }
-    .imgs img{
-        height: 300px;
-        width: 300px;
-    }
-    .imgs p{
-        background-color: burlywood;
-        text-align: justify;
-        width: 300px;
-        margin-bottom: 50px;
-        padding: 10px;
     }
  }
