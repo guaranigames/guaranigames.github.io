@@ -7,7 +7,7 @@ body{
     background-color: rgb(51, 51, 51);
     color: white;
 }
-
+/**/
 #nome{
     width: auto;
     margin: auto;
@@ -69,7 +69,6 @@ body{
 .imgs{
     display: none;
 }
-
 /* sobre nos */
 #papiros{
     display: grid;
@@ -104,11 +103,11 @@ body{
 }
 .carousel {
     display: flex;
-    grid-template-columns: auto 1fr; /* Ajusta a coluna da imagem e do texto */
+    grid-template-columns: auto 1fr; /*Ajusta a coluna da imagem e do texto*/
     flex-direction: column;
     margin: 0;
     justify-content: center;
-    place-items: center; /* Centraliza vertical e horizontalmente */
+    place-items: center; /*Centraliza vertical e horizontalmente*/
 }
 .carousel-images img {
     width: 400px;
@@ -162,7 +161,6 @@ button.next {
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 /*carousel evolucao*/
 .carousel-e img{
     height: 500px;
@@ -390,7 +388,6 @@ footer img{
     #nome{
         width: auto;
     }
-
     .imgs-sn{
         display: flex;
         text-align: center;
@@ -401,7 +398,7 @@ footer img{
     }
     .imgs-sn img{
         height: 500px;
-        width: 400px;
+        width: 385px;
     }
     .imgs-sn p{
         text-align: justify;

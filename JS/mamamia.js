@@ -14,9 +14,7 @@ menu.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
-
 //
-
 let ImageIndex = 0;
 const imagems = document.querySelectorAll('.carousel-imagems img');
 const descricao = [

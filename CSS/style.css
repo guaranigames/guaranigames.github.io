@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    /*
-    width: 100%;
-    height: 100%;
-    background-image: url(/IMGs/img_fundo.jpeg);
-    background-size: cover
-    */
     width: 100%;
     height: 100%;
     background-image: url(/IMGs/img_fundo.jpeg);
@@ -35,9 +29,9 @@ body{
     margin: auto;
     height: 300px;
     display: flex;
-    flex-direction: column; /* Coloca as imagens uma embaixo da outra */
-    align-items: center; /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
+    flex-direction: column; /*Coloca as imagens uma embaixo da outra*/
+    align-items: center; /*Centraliza horizontalmente*/
+    justify-content: center; /*Centraliza verticalmente*/
 }
 #litt{
     position: absolute;
@@ -53,7 +47,7 @@ body{
     height: 300px;
 }
 #litt, #fundo {
-    max-width: 100%; /* Reduz a largura das imagens em telas menores */
+    max-width: 100%; /*Reduz a largura das imagens em telas menores*/
   }
  
 /*menu de navegaçao*/
@@ -68,8 +62,8 @@ body{
 #menu ul{
     list-style: none;
     text-transform: uppercase;
-    align-items: center; /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /*Centraliza horizontalmente*/
+    justify-content: center; /*Centraliza verticalmente*/
     width: 510px;
 }
 #menu li{
@@ -103,14 +97,14 @@ body{
     margin: auto;
     background-color: burlywood;
     display: flex;
-    flex-direction: row; /* Coloca as imagens uma embaixo da outra */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: row; /*Coloca as imagens uma embaixo da outra*/
+    justify-content: center; /*Centraliza verticalmente*/
+    align-items: center; /*Centraliza horizontalmente*/
 }
 #video{
     width:560px;
     height:315px;
-    /*Sem video kkkk*/
+    /*Sem video*/
     background-color: #000;
     color: white;
     text-align: center;
@@ -132,7 +126,7 @@ body{
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/* descricao e imagens do jogo*/
+/*descricao e imagens do jogo*/
 .nov{
     margin-top: 60px;
     margin-bottom: 30px;
@@ -145,9 +139,9 @@ body{
     height: 400px;
     margin: auto;
     display: flex;
-    flex-direction: row; /* Coloca as imagens uma embaixo da outra */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: row; /*Coloca as imagens uma embaixo da outra*/
+    justify-content: center; /*Centraliza verticalmente*/
+    align-items: center; /*Centraliza horizontalmente*/
     margin-top: 100px;
     gap: 30px;
     margin-bottom: 100px;
@@ -238,7 +232,6 @@ footer img{
     font-size: 20px;
 }
 .carousel-descricao{
-   
     padding: 10px;
 }
 button {
@@ -300,28 +293,28 @@ button:hover {
 /*RESPANCIVIDADE*/
 @media (max-width: 1084px) {
     #litt, #fundo{
-     max-width: 100%; /* As imagens ocupam toda a largura da tela em dispositivos muito pequenos */
+     max-width: 100%; /*As imagens ocupam toda a largura da tela em dispositivos muito pequenos*/
    }
   /*TRAILER*/
   #trailer {
-    flex-direction: column; /* Coloca as imagens em uma coluna ao invés de uma linha */
+    flex-direction: column; /*Coloca as imagens em uma coluna ao invés de uma linha*/
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
     max-width: 550px;
   }
   #papiros{
-    place-items: center; /* Centraliza vertical e horizontalmente */
+    place-items: center; /*Centraliza vertical e horizontalmente*/
     flex-direction: column;
     margin: 0;
     justify-content: center;
   }
   #inf{
-    height: 300px; /* Reduz a largura das imagens em telas menores */
+    height: 300px; /*Reduz a largura das imagens em telas menores*/
   }
   /*imgs do jogo*/
   #descricao {
-    flex-direction: column; /* Coloca as imagens em uma coluna ao invés de uma linha */
+    flex-direction: column; /*Coloca as imagens em uma coluna ao invés de uma linha*/
     margin-top: 400px;
     margin-bottom: 400px;
   }
